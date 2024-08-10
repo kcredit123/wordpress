@@ -1,0 +1,10 @@
+# Ignore WordPress uploads and other non-essential files
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Ignore Docker containers and volumes
+.env
+.vscode/
+docker-compose.override.yml
+docker-compose.logs.yml
