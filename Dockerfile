@@ -6,8 +6,8 @@ COPY ./wp-content /var/www/html/wp-content
 
 # Set environment variables (optional)
 ENV WORDPRESS_DB_HOST=mysql
-ENV WORDPRESS_DB_USER=example username
-ENV WORDPRESS_DB_PASSWORD=example password
+ENV WORDPRESS_DB_USER=example_username
+ENV WORDPRESS_DB_PASSWORD=example_password
 ENV WORDPRESS_DB_NAME=wordpress
 
 # Expose port 80

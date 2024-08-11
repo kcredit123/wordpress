@@ -18,8 +18,8 @@ services:
     restart: always
     environment:
       - WORDPRESS_DB_HOST=mysql
-      - WORDPRESS_DB_USER=example username
-      - WORDPRESS_DB_PASSWORD=example password
+      - WORDPRESS_DB_USER=example_username
+      - WORDPRESS_DB_PASSWORD=example_password
       - WORDPRESS_DB_NAME=wordpress
     volumes:
       - ./wp-content:/var/www/html/wp-content
