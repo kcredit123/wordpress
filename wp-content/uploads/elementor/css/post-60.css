@@ -1,0 +1,47 @@
+.elementor-60 .elementor-element.elementor-element-c014e36{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-60 .elementor-element.elementor-element-c014e36:not(.elementor-motion-effects-element-type-background), .elementor-60 .elementor-element.elementor-element-c014e36 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-primary );}.elementor-60 .elementor-element.elementor-element-c014e36, .elementor-60 .elementor-element.elementor-element-c014e36::before{--border-transition:0.3s;}.elementor-60 .elementor-element.elementor-element-22a30502{--display:flex;--min-height:40vh;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--overflow:hidden;--background-transition:0.3s;}.elementor-60 .elementor-element.elementor-element-72f53d06{--display:flex;--min-height:80vh;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--gap:154px 154px;--background-transition:0.3s;}.elementor-60 .elementor-element.elementor-element-7449ae1{--iteration-count:infinite;}.elementor-60 .elementor-element.elementor-element-7449ae1 .elementor-headline{text-align:center;font-family:"Roboto Slab", Sans-serif;font-size:30px;font-weight:400;}.elementor-60 .elementor-element.elementor-element-3ac3310c{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-60 .elementor-element.elementor-element-233e37a2{--display:flex;--min-height:100vh;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--gap:0px 0px;--background-transition:0.3s;}@media(max-width:767px){.elementor-60 .elementor-element.elementor-element-233e37a2{--min-height:400px;--gap:0px 0px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-60 .elementor-element.elementor-element-233e37a2.e-con{--flex-grow:0;--flex-shrink:1;}}/* Start custom CSS for container, class: .elementor-element-22a30502 */body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+marquee {
+	height: 100vh;
+}
+
+.ball {
+	max-width: 300px;
+	animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-72f53d06 */.elementor-60 .elementor-element.elementor-element-72f53d06 {
+    background: linear-gradient(341deg, #33caa3, #334cca, #cac633);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:29% 0%}
+    50%{background-position:72% 100%}
+    100%{background-position:29% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:29% 0%}
+    50%{background-position:72% 100%}
+    100%{background-position:29% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:29% 0%}
+    50%{background-position:72% 100%}
+    100%{background-position:29% 0%}
+}/* End custom CSS */
